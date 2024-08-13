@@ -1,0 +1,66 @@
+# Gradle
+.gradle/
+build/
+!gradle-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Groovy
+*.groovy~
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# OpenAI API key (if stored in a file)
+openai.properties
+openai.yaml
+openai.yml
+
+# LlamaIndex
+llamaindex_cache/
+llamaindex_data/
+
+# Compiled output
+out/
+target/
+
+# Virtual environment
+venv/
+env/
+
+# Dependency directories
+node_modules/
+
+# Application properties
+application-*.properties
+application-*.yml
+!application.properties
+!application.yml
+
+# Gradle wrapper
+!gradle/wrapper/gradle-wrapper.jar
+
+# Misc
+*.swp
+.env
+*~
+.vscode/
